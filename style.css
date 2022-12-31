@@ -110,3 +110,10 @@ body {
   .empty {
     color: darkslategrey;
   }
+
+  @media (max-width: 390px) {
+    .container {
+       width: 70%;
+       margin-top: 30px;
+    }
+  }
